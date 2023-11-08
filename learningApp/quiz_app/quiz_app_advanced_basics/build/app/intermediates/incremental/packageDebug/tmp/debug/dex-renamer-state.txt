@@ -1,0 +1,4 @@
+#Tue Nov 07 16:38:02 CAT 2023
+base.0=C\:\\Users\\lcarb\\OneDrive\\Desktop\\UDEMY\\Flutter\\learningApp\\quiz_app\\quiz_app_advanced_basics\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -33,11 +33,10 @@ class _QuizState extends State<Quiz> {
 
   void chooseAnswer(String answer) {
     selectedAnsswers.add(answer);
+
     if (selectedAnsswers.length == questions.length) {
       setState(() {
-        activeScreen = ResultsScreen(
-          chosenAnswers: selectedAnsswers,
-        );
+        activeScreen = ResultsScreen(chosenAnswers: selectedAnsswers);
       });
     }
   }
