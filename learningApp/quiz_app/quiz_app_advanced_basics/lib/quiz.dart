@@ -14,47 +14,54 @@ class Quiz extends StatefulWidget {
 }
 
 class _QuizState extends State<Quiz> {
-  Widget? activeScreen;
-  List<String> selectedAnsswers = [];
-
-  @override
-  void initState() {
-    activeScreen = StartSceen(switchScreen);
-    super.initState();
-  }
+  List<String> selectedAnwsers = [];
+  var activeScreen = 'start-screen';
 
   void switchScreen() {
     setState(() {
-      activeScreen = Questions(
-        onSelectAnswer: chooseAnswer,
-      );
+      activeScreen = 'questions-screen';
     });
   }
 
   void chooseAnswer(String answer) {
-    selectedAnsswers.add(answer);
+    selectedAnwsers.add(answer);
 
-    if (selectedAnsswers.length == questions.length) {
+    if (selectedAnwsers.length == questions.length) {
       setState(() {
-        activeScreen = ResultsScreen(chosenAnswers: selectedAnsswers);
+        activeScreen = 'results-screen';
       });
     }
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
+    Widget screenWidget = StartSceen(switchScreen);
+
+    if (activeScreen == 'questions-screen') {
+      screenWidget = Questions(
+        onSelectAnswer: chooseAnswer,
+      );
+    }
+
+    if (activeScreen == 'results-screen') {
+      screenWidget = ResultsScreen(
+        chosenAnswers: selectedAnwsers,
+      );
+    }
+
     return MaterialApp(
       home: Scaffold(
         body: Container(
-            decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                colors: [
-                  Color.fromARGB(255, 88, 4, 232),
-                  Color.fromARGB(255, 139, 83, 236)
-                ],
-              ),
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Color.fromARGB(255, 88, 4, 232),
+                Color.fromARGB(255, 139, 83, 236)
+              ],
             ),
-            child: activeScreen),
+          ),
+          child: screenWidget,
+        ),
       ),
     );
   }

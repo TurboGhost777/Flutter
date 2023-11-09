@@ -24,7 +24,7 @@ class _QuestionsState extends State<Questions> {
 
   void answerQuestion(String answer) {
     setState(() {
-      widget.onSelectAnswer('....');
+      widget.onSelectAnswer(answer);
       currentQuestionIndex++;
     });
   }

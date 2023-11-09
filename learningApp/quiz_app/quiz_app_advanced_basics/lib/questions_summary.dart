@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app_advanced_basics/data/questions.dart';
 
 class QuestionsSummary extends StatelessWidget {
   const QuestionsSummary(this.summaryData, {super.key});
 
   final List<Map<String, Object>> summaryData;
-
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -12,19 +12,18 @@ class QuestionsSummary extends StatelessWidget {
         (data) {
           return Row(
             children: [
-              Text(
-                ((data['question_index'] as int) + 1).toString(),
-              ),
-              Column(
+              Text(((data['question_index'] as int) + 1).toString()),
+              Expanded(
+                  child: Column(
                 children: [
-                  Text(data['question'] as String),
+                  // Text((data['question'] as String)),
                   const SizedBox(
                     height: 5,
                   ),
                   Text(data['user_answer'] as String),
                   Text(data['correct_answer'] as String),
                 ],
-              ),
+              ))
             ],
           );
         },

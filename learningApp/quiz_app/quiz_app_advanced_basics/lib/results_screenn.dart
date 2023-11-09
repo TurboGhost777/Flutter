@@ -10,17 +10,18 @@ class ResultsScreen extends StatelessWidget {
   List<Map<String, Object>> getSummaryData() {
     final List<Map<String, Object>> summary = [];
 
-    for (var i = 0; i < chosenAnswers.length; i++) {
-      summary.add(
-        {
-          'question_index': i,
-          'question': questions[i],
-          'correct_answer': questions[i].answers[0],
-          'user_answer': questions[i].answers[i],
-        },
-      );
+    if (chosenAnswers.length == questions.length) {
+      for (var i = 0; i < chosenAnswers.length; i++) {
+        summary.add(
+          {
+            'question_index': i,
+            'question': questions[i],
+            'correct_answer': questions[i].answers[0],
+            'user_answer': chosenAnswers[i],
+          },
+        );
+      }
     }
-
     return summary;
   }
 
