@@ -51,7 +51,7 @@ class _QuestionsState extends State<Questions> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 30),
-            ...currentQuestion.getShuffekedAnswers().map((answer) {
+            ...currentQuestion.shuffeledAnswers.map((answer) {
               return AnswerButton(answer, () {
                 answerQuestion(answer);
               });
