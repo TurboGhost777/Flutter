@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app_advanced_basics/data/questions.dart';
 
 class QuestionsSummary extends StatelessWidget {
   const QuestionsSummary(this.summaryData, {super.key});
@@ -16,7 +15,7 @@ class QuestionsSummary extends StatelessWidget {
               Expanded(
                   child: Column(
                 children: [
-                  // Text((data['question'] as String)),
+                  Text((data['question'] as String)),
                   const SizedBox(
                     height: 5,
                   ),
