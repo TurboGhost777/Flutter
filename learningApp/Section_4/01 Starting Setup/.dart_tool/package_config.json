@@ -75,7 +75,7 @@
     },
     {
       "name": "google_fonts",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-5.1.0",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/google_fonts-4.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -242,13 +242,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "quiz_app_advanced_basics",
+      "name": "adv_basics",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-13T13:18:19.583435Z",
+  "generated": "2023-11-13T13:25:48.932168Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
