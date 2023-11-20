@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//This class is for creating the new expense modal to add new expenses
+//It overlays the current widget with inputs for the correct values
 class NewExpense extends StatefulWidget {
   const NewExpense({super.key});
 
@@ -31,9 +33,10 @@ class _NewExpenseState extends State<NewExpense> {
             children: [
               ElevatedButton(
                 onPressed: () {
+                  // ignore: avoid_print
                   print(_enteredValue);
                 },
-                child: const Text('save expense'),
+                child: const Text('Save Expense'),
               ),
             ],
           )

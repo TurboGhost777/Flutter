@@ -12,6 +12,7 @@ class Expenses extends StatefulWidget {
   }
 }
 
+//Currently dummy data  for def purposes
 class _ExpensesState extends State<Expenses> {
   final List<Expense> _registeredExpenses = [
     Expense(
@@ -31,6 +32,7 @@ class _ExpensesState extends State<Expenses> {
         context: context, builder: (ctx) => const NewExpense());
   }
 
+//Building of main widget tree for Charts and expense items list
   @override
   Widget build(BuildContext context) {
     return Scaffold(
