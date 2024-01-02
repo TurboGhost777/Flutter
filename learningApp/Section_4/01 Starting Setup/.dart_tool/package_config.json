@@ -27,7 +27,7 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.17.2",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -57,9 +57,9 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/progarm_tools/flutter/packages/flutter",
+      "rootUri": "file:///C:/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "flutter_lints",
@@ -69,9 +69,9 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///C:/progarm_tools/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "google_fonts",
@@ -81,9 +81,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.1.0",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.1.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "http_parser",
@@ -111,7 +111,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -129,9 +129,9 @@
     },
     {
       "name": "path_provider_android",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.1",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_android-2.2.2",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_provider_foundation",
@@ -165,15 +165,15 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.6",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/progarm_tools/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "source_span",
@@ -183,15 +183,15 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.0",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.1",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
@@ -207,9 +207,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.0",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.6.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "typed_data",
@@ -225,15 +225,15 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.1.4-beta",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.3.0",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.2"
     },
     {
       "name": "win32",
-      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/win32-5.0.9",
+      "rootUri": "file:///C:/Users/lcarb/AppData/Local/Pub/Cache/hosted/pub.dev/win32-5.1.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.1"
     },
     {
       "name": "xdg_directories",
@@ -248,7 +248,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-13T13:25:48.932168Z",
+  "generated": "2024-01-02T14:18:57.367506Z",
   "generator": "pub",
-  "generatorVersion": "3.1.5"
+  "generatorVersion": "3.2.3"
 }
